@@ -21,5 +21,6 @@ func init() {
 	infra.Register(&jobs.RefundExpiredJobStarter{})
 	infra.Register(&base.IrisServerStarter{})
 	infra.Register(&infra.WebApiStarter{})
+	infra.Register(&base.EurekaStarter{})
 	infra.Register(&base.HookStarter{})
 }
